@@ -125,7 +125,10 @@ h3 { font-size: 1.3rem; line-height: 1.2; }
 .press-strip { background: var(--yellow); color: var(--navy-deep); padding: .9rem 0; font-size: .95rem; }
 .press-strip .wrap { display: flex; flex-wrap: wrap; align-items: baseline; gap: .3rem 1.4rem; }
 .press-strip p { font-weight: 500; }
-.press-strip ul { display: flex; flex-wrap: wrap; gap: .2rem 1.4rem; font-weight: 700; }
+.press-strip ul { display: flex; flex-wrap: wrap; gap: .35rem 1.5rem; font-weight: 700; }
+.press-strip li { display: inline-flex; align-items: center; gap: .4rem; }
+.press-strip svg { width: 1.2rem; height: 1.2rem; flex: none; }
+.ue-badge { width: 30px; height: 30px; border-radius: 50%; flex: none; margin-left: -.45rem; box-shadow: 0 0 0 2px rgba(15,32,64,.18); }
 
 /* Bands */
 .band { padding-block: clamp(3.2rem, 8vw, 6rem); }
